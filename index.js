@@ -11,5 +11,6 @@ function Incre(){
 function save(){
     let countStr = count + " - "
     saveEle.textContent += countStr;
+    countEle.textContent = 0;
     count = 0;
 }
